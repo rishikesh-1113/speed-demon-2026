@@ -18,3 +18,9 @@ different input file as the first argument and set `OUT` to the output file
 path.
 
 The pinned build and runtime image digests match the official image allowlist.
+
+## Full-dataset verification
+
+The public seed-1 dataset output was compared byte-for-byte with the official
+Python reference. Its expected output SHA-256 is
+`495ca09682b9673ef836a506496177680bb4a3af54255174befddb1f83481cd3`.
